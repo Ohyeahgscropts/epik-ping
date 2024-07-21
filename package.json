@@ -1,12 +1,12 @@
 {
-  "name": "discordjs-base",
+  "name": "epik ping",
   "version": "1.0.0",
-  "description": "Code Base for an Discord.JS Bot",
+  "description": "yes",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "routerabfrage",
+  "author": "yze",
   "license": "https://github.com/routerabfrage/License",
   "dependencies": {
     "discord.js": "^12.3.1",
