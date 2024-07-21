@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
     if (message.author.bot) return;
 
     let embed = new Discord.MessageEmbed()
-        .setTitle("🏓 Pong!")
+        .setTitle("no")
         .setColor(3447003)
         .addField("Bot Latency", `${message.createdTimestamp - message.createdTimestamp}ms`, true)
         .addField("API Latency", `${Math.round(client.ws.ping)}ms`, true)
@@ -19,5 +19,5 @@ module.exports.run = async (client, message, args) => {
 };
 
 module.exports.help = {
-    name: "ping"
+    name: "nuke"
 };
